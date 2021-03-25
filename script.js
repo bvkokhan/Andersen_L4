@@ -13,6 +13,7 @@ class Stack {
             if (this.count > this.size) {
                 throw new Error('Stack Overflow');
             }
+            Ы
             this.storage[this.count] = elem;
             this.count++;
         };
